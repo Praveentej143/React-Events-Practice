@@ -1,0 +1,34 @@
+/* Write your CSS here */
+.event-item-container {
+  width: 60vw;
+  background-color: #64748b;
+  /* height: 100vh; */
+  padding: 30px;
+  font-family: 'Roboto';
+}
+.heading {
+  color: #ffffff;
+  margin-left: 20px;
+}
+.event-list-container {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  flex-wrap: wrap;
+  /* border: 1px solid red; */
+  padding: 0%;
+}
+.app-container {
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+}
+.active-event-heading {
+  color: #3a4b63;
+  font-size: 18px;
+  font-weight: 500;
+}
+.active-event-register-container {
+  width: 40vw;
+  height: 100vh;
+}

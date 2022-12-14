@@ -1,0 +1,31 @@
+/* Write your CSS here */
+.event-image {
+  width: 270px;
+}
+.event-image-active {
+  width: 270px;
+  border: 1px solid #2dd4bf;
+  border-radius: 8px;
+}
+.events-container {
+  margin: 20px;
+  width: 20vw;
+  padding: 0%;
+  list-style-type: none;
+  /* display: flex; */
+  font-family: 'Roboto';
+}
+.event-heading {
+  color: #ffffff;
+  font-size: 16px;
+  font-weight: 500;
+}
+.event-location {
+  color: #ffffff;
+  font-size: 12px;
+}
+.event-btn {
+  background-color: transparent;
+  cursor: pointer;
+  border: none;
+}
